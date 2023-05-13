@@ -19,8 +19,8 @@ class NewsEntity(
     @field:ColumnInfo(name = "urlToImage")
     val urlToImage: String? = null,
 
-    @field:ColumnInfo(name = "url")
-    val url: String? = null
+//    @field:ColumnInfo(name = "url")
+//    val url: String? = null
 
 
 ) : Parcelable
