@@ -16,8 +16,8 @@ class NewsEntity(
     @field:ColumnInfo(name = "publishedAt")
     val publishedAt: String,
 
-    @field:ColumnInfo(name = "urlToImage")
-    val urlToImage: String? = null,
+//    @field:ColumnInfo(name = "urlToImage")
+//    val urlToImage: String? = null,
 
 //    @field:ColumnInfo(name = "url")
 //    val url: String? = null
