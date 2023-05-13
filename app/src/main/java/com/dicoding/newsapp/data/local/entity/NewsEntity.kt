@@ -21,4 +21,6 @@ class NewsEntity(
 
     @field:ColumnInfo(name = "url")
     val url: String? = null
+
+
 ) : Parcelable
